@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* 데스크탑 */
+
+@media screen and (max-width:1023px) {
+/* 타블렛 */
+}
+
+@media screen and (max-width:767px) {
+/* 모바일 */
+}
+
+        body {
+            background-image: url("https://lh3.googleusercontent.com/4y-5j3Eg_oswUNvK8puejjARgnEFN0I-1uBK0dCOm1YG1RW8c1RvYN70geR1YloaFxzI0_oDz1zufcyCrDBKccK1Q7oG6DsRQ7IpuJbNp4YAFC0SnDZMRck7YxQnfo91KXcLZHtWxQ2LvFiXsOxTgJ438miFNfFUGdQPkb9ybKsdqEANnVMrJI0P9QGZmNdwllVoqST2vxc4P5OmKBQXP0_ZiQV3jmS8ttXvFD5ewbTW5C5NZIA90eLwwwvPADKwrk4rhMJJj7fZxTZTtwQFuMxw8dHmODUWrRyPP8Wj5eyfoz-8FQjkejL42yJu07iVqkOO4tfXgJnBetQDzQDvG16y6rSGFyJpWALkcSHJCaF3MSAoBz_rsd4m8ztSZO8_FxRF7koI5bPSqS6AyWzv1WYVlG0F1xVyVRSfWgi3OMC02FT_LhijLB0ZNokawUNS9eF_I33UU5I3n4ZquAq1T2yUp1IdUzdT2iScFmg1oSuKAfj3zR-cgM2UXXUHbYIjRrXYe5kgkaPt0tOTsNXnThSpFlbrj8TxClgk8_CA9r3Xpf2fi7iKdozwamPxHZ2xN6zPkfMXhbDcujwjtSeUxpE95UjAE8XM163ddLE8VyKHrvAOmeQUBk1i48ilUE2md3vD0JDAVnDMhbEf_MJWUKV2PC8xjc_LvUKZDyQw_ZjOiW9lGBcpPNchaF27bR7m0O1EUzQXHxRPdDbX9b2lus5L3f4qnjjqLhPk7Tzv04zCNnr3M-gZWHR-0dsGsORgGszaA11nRDF-X4LESZV5yDFS7qJIYQrz7FP8JDgIwn3E4kYTsgRPC77eNlN7f7kcQU9EdWc8AGgkpzbqOuuzOqAxXxCzrpl6OojjMgQvjZ55kSsh9pqVLSlFKQvXnGABPMazMhJvO6bmIYBoa5qot1ruG38cU8JA0Ev7KO0aoXthxFA_Vliz4KqBd3pOivRsslOEIRVn_WBLtWa9_hn2alUhJ31VinzxC5HEhgYBgKA8rrmoQ2vltg=w688-h516-no?authuser=0");
+            background-position: center;
+            background-size: cover;
+
+            color: white;
+        }
+        
+
+        .time{
+            font-size: 100px;
+            font-weight: bold;
+        }
+        .greet{
+            font-size: 50px;
+        }
+
+        .todo{
+            font-size: 30px;
+        }
+        .author{
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+            
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main"> 
+        <div id="time" class="time">12:00</div>
+        <div class="greet">잘살지현 안녕?</div>
+        <div class="todo">오늘도 잘 살아보자</div>
+        </div>
+    <div class="quote">
+        <div id="author" class="author">-명언의 저자-</div>
+        <div id="content" class="content">"명언의 내용"</div>
+    </div>
+</body>
+
+</html>
